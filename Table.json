@@ -1,0 +1,163 @@
+[
+    [
+        {"course": "NSTP01",
+        "description": "Civic Welfare Training Service 1",
+        "Unit": "3.0",
+        "Grade": "1.90",
+        "Term": "First Semester A.Y 2022-2023"
+        },
+
+        {"course": "SCITEC",
+        "description": "Science, Technology and Society",
+        "Unit": "3.0",
+        "Grade": "1.80",
+        "Term": "First Semester A.Y 2022-2023"
+        },
+
+        {"course": "INTCOM",
+        "description": "Introduction to Computing",
+        "Unit": "3.0",
+        "Grade": "2.30",
+        "Term": "First Semester A.Y 2022-2023"
+        },
+
+        {"course": "COPRO1",
+        "description": "Computer Programming 1",
+        "Unit": "3.0",
+        "Grade": "1.70",
+        "Term": "First Semester A.Y 2022-2023"
+        },
+
+        {"course": "COMPOP",
+        "description": "Computer Operations: Office Productivity Software(MS Office)",
+        "Unit": "3.0",
+        "Grade": "1.40",
+        "Term": "First Semester A.Y 2022-2023"
+        },
+
+        {"course": "PEDUC1",
+        "description": "Physical Activities Towards Health and Fitness 1",
+        "Unit": "2.0",
+        "Grade": "1.20",
+        "Term": "First Semester A.Y 2022-2023"
+        },
+
+        {"course": "PEDUC1",
+        "description": "Physical Activities Towards Health and Fitness 1",
+        "Unit": "2.0",
+        "Grade": "1.20",
+        "Term": "First Semester A.Y 2022-2023"
+        }
+    ],
+
+    [
+        {"course": "OOPROG",
+        "description": "Object-Oriented Programming",
+        "Unit": "3.0",
+        "Grade": "2.20",
+        "Term": "Second Semester A.Y 2022-2023"
+        },
+
+        {"course": "ARTAPP",
+        "description": "Art Appreciation",
+        "Unit": "3.0",
+        "Grade": "2.60",
+        "Term": "Second Semester A.Y 2022-2023"
+        },
+
+        {"course": "PURCOM",
+        "description": "Purposive Communication",
+        "Unit": "3.0",
+        "Grade": "1.80",
+        "Term": "Second Semester A.Y 2022-2023"
+        },
+
+        {"course": "NSTP02",
+        "description": "Civic Welfare Training Service 2",
+        "Unit": "3.0",
+        "Grade": "1.00",
+        "Term": "Second Semester A.Y 2022-2023"
+        },
+
+        {"course": "DSTRU1",
+        "description": "Discrete Structures 1",
+        "Unit": "3.0",
+        "Grade": "1.70",
+        "Term": "Second Semester A.Y 2022-2023"
+        },
+
+        {"course": "PEDUC2",
+        "description": "Physical Activities Towards Health and Fitness 2",
+        "Unit": "2.0",
+        "Grade": "1.30",
+        "Term": "Second Semester A.Y 2022-2023"
+        },
+
+        {"course": "COPRO2",
+        "description": "Physical Activities Towards Health and Fitness 1",
+        "Unit": "3.0",
+        "Grade": "1.70",
+        "Term": "Second Semester A.Y 2022-2023"
+        },
+
+        {"course": "GEEL01",
+        "description": "General Education Elective 1",
+        "Unit": "3.0",
+        "Grade": "1.40",
+        "Term": "First Semester A.Y 2023-2024"
+        }
+    ],
+
+    [
+        {"course": "ANIMUL",
+        "description": "Animation and Multimedia",
+        "Unit": "3.0",
+        "Grade": "1.60",
+        "Term": "First Semester A.Y 2023-2024"
+        },
+
+        {"course": "HUMCOM",
+        "description": "Human Computer Interaction",
+        "Unit": "3.0",
+        "Grade": "1.30",
+        "Term": "First Semester A.Y 2023-2024"
+        },
+
+        {"course": "MATMOD",
+        "description": "Mathematics in the Modern World",
+        "Unit": "3.0",
+        "Grade": "1.40",
+        "Term": "Second Semester A.Y 2022-2023"
+        },
+
+        {"course": "DASTRU",
+        "description": "Data Structures and Algorithms",
+        "Unit": "3.0",
+        "Grade": "1.10",
+        "Term": "First Semester A.Y 2023-2024"
+        },
+
+        {"course": "NETWRK",
+        "description": "CCNA Exploration: Network Fundamentals",
+        "Unit": "3.0",
+        "Grade": "1.50",
+        "Term": "Second Semester A.Y 2022-2023"
+        },
+
+        {"course": "PEDUC3",
+        "description": "Physical Activities Towards Health and Fitness 3",
+        "Unit": "2.0",
+        "Grade": "1.10",
+        "Term": "First Semester A.Y 2023-2024"
+        },
+
+        {"course": "GEEL02",
+        "description": "General Education Elective 2",
+        "Unit": "3.0",
+        "Grade": "1.10",
+        "Term": "Second Semester A.Y 2022-2023"
+        }
+    ]
+
+    //Second Year, Second Semester
+]
