@@ -73,7 +73,7 @@ tr:last-of-type td:last-of-type {
 
 /* Stiped Color */
 .table-body-in-progress:nth-child(even) {
-    background-color: #e9d44a;
+    background-color: #ead548;
 }
 
 /* Courses not taken */

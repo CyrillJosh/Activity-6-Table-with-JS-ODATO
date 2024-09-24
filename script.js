@@ -51,6 +51,7 @@ $(document).ready(function() {
                 //Initialize data
                 let subject = subjects[i];
                 let course = subject["Course"];
+                let course2 = subject["Course"];
                 let desc = subject["Description"];
                 let unit = subject["Unit"];
                 let grade = subject["Grade"];
@@ -65,12 +66,14 @@ $(document).ready(function() {
                         break;
                     case "":
                         cssclass = "table-body-not-taken"
+                        course2 = "";
                         break;
                     case "In progress":
                         cssclass = "table-body-in-progress"
+                        course2 = "";
                         break;
                 }
-                
+
                 //Display body
                 $(".tablebody").append(
                     `<tr class="${cssclass}">
@@ -79,7 +82,7 @@ $(document).ready(function() {
                     <td>${unit}</td>
                     <td>${grade}</td>
                     <td>${remarks}</td>
-                    <td>${course}</td>
+                    <td>${course2}</td>
                     <td>${term}</td>
                     </tr>`
                 )
