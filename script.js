@@ -14,49 +14,45 @@ $(document).ready(function() {
                     "Fourth Year, First Semester",
                     "Fourth Year, Second Semester"];
         let semcount = 0;
-
         const columnName = {"Course": 15,
                             "Description": 25,
                             "Unit": 8,
                             "Grade": 10,
                             "Remarks" : 12,
                             "Course2": 16,
-                            "Term": 25}
-
-        //get the subjects for each semester
-        curriculum.forEach(subjects => {
-            //Header
-                //Title
-                $(".tablebody").append(
-                    `<tr class="table-title">
-                        <th colspan="7">${sem[semcount++]}</th>
-                    </tr>`
-                )
-                //Column name
-                let tableHeadHTML;
-                for (let x in columnName) {
-                    //For the second course column
-                    if(x === "Course2")
-                        tableHeadHTML += `<td width=${columnName[x]}%>${x.substring(0,(x.length-1))}</td>`;  
-                    else
-                        tableHeadHTML += `<td width=${columnName[x]}%>${x}</td>`;
-                }
-                $(".tablebody").append(
-                    `<tr class="table-head">
-                        ${tableHeadHTML}
-                    </tr>`
-                )
-            //Body
-            for (let i in subjects) {
+                            "Term": 25};
+        for (let i=0; i<8; i++)
+        {
+            //Title
+            $(".tablebody").append(
+                `<tr class="table-title">
+                    <th colspan="7">${sem[semcount++]}</th>
+                </tr>`
+            )
+            //Column name
+            let tableHeadHTML;
+            for (let x in columnName) {
+                //For the second course column
+                if(x === "Course2")
+                    tableHeadHTML += `<td width=${columnName[x]}%>${x.substring(0,(x.length-1))}</td>`;  
+                else
+                    tableHeadHTML += `<td width=${columnName[x]}%>${x}</td>`;
+            }
+            $(".tablebody").append(
+                `<tr class = "table-head">
+                    ${tableHeadHTML}
+                </tr>`
+            );
+            let semsubs = curriculum.filter((x) => x["tag"] == i);
+            semsubs.forEach(subs => {
                 //Initialize data
-                let subject = subjects[i];
-                let course = subject["Course"];
-                let course2 = subject["Course"];
-                let desc = subject["Description"];
-                let unit = subject["Unit"];
-                let grade = subject["Grade"];
-                let remarks = subject["Remarks"];
-                let term = subject["Term"];
+                let course = subs["Course"];
+                let course2 = subs["Course"];
+                let desc = subs["Description"];
+                let unit = subs["Unit"];
+                let grade = subs["Grade"];
+                let remarks = subs["Remarks"];
+                let term = subs["Term"];
 
                 //Check if the subject is already taken, in progress, or not
                 let cssclass;
@@ -86,7 +82,7 @@ $(document).ready(function() {
                     <td>${term}</td>
                     </tr>`
                 )
-            }
-        });
+            });
+        }
     });
 })
